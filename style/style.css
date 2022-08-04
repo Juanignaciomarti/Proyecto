@@ -67,7 +67,7 @@ footer :hover{
 .grid_article{
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 80% 80% 80%;
+   grid-template-rows: 33% 33% 33%;
    grid-template-areas: "a1"
                         "a2"
                         "a3";
