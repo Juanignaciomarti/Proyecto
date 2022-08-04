@@ -273,6 +273,20 @@ main{
       padding-top: 200px;
 
    }
+
+   .card-erlend{
+   display: flex;
+   flex-wrap: wrap;
+
+   }
+
+   .card-eirik{
+      padding-top: 50%;
+      display: flex;
+      flex-wrap: wrap;
+
+   }
+
 }
 
 
