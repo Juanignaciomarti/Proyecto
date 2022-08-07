@@ -110,6 +110,7 @@ footer :hover{
    .portada{
       height: 40%;
       width: 40%;
+      
 
    }
 
@@ -270,7 +271,7 @@ main{
 
     .grid_eirik{
       grid-area: a3;
-      padding-top: 200px;
+      
 
    }
 
@@ -284,6 +285,7 @@ main{
       padding-top: 50%;
       display: flex;
       flex-wrap: wrap;
+      padding-top: 300px;
 
    }
 
@@ -369,27 +371,33 @@ main{
 @media only screen and (max-width:600px){
    .discografia_grid{
       display: grid;
-      grid-template-columns: 30% ;
-      grid-template-rows: 30% ;
+      grid-template-columns: 100px ;
+      grid-template-rows: 100px ;
       grid-template-areas: "a1"
                            "a2";
       justify-items: left;
+      padding-left: 50px;
    }
       
+   .titulo_disco{
+      padding-bottom: 350px;
+
+   }
+   
    .titulo_grid{
       grid-area: a1;
-      }
+      
+   }
       
    .tabla_grid{
       grid-area: a2;
-      font-size: smaller;
-      display: none;
+      
+      
    }
 
    .iframe_grid{
-      grid-area: a1;
+      grid-area: a2;
       padding-right: 100px;
-      padding-top: 100px;
    }
 
 
@@ -397,7 +405,7 @@ main{
      
 .carousel-item{
    height: auto;
-   width: 400px;
+   width: 200px;
    
 }
  
@@ -490,6 +498,7 @@ form{
    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    padding-bottom: 10px;
    margin-top: 10px;
+   padding-left: 33px;
 
 }
 
@@ -498,11 +507,14 @@ form{
       width: 280px;
       min-height: 100px;
       margin: auto;
-      margin-top: 40px;
       padding-left: 20px;
       grid-area: a2;
       font-size: small;
    }
 
+   .col-12{
+      padding-left: 33px;
+
+   }
 }
 
