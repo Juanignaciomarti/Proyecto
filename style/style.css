@@ -355,7 +355,7 @@ main{
    outline: black;
    background-size: 100%, 100%;
    background-image: none;
-   padding-left: 80px;
+   padding-left: 60px;
  }
 
 .carousel-control-next-icon:after
@@ -365,6 +365,21 @@ main{
   color: black;
 }
 
+.carousel-control-prev-icon {
+   height: 100px;
+   width: 100px;
+   outline: black;
+   background-size: 100%, 100%;
+   background-image: none;
+   padding-right: 80px;
+ }
+
+.carousel-control-prev-icon:after
+{
+  content: '<';
+  font-size: 55px;
+  color: black;
+}
 
 /*fin grid disografia*/
 
