@@ -1,0 +1,84 @@
+.grid_article{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-areas: "a1"
+                         "a2"
+                         "a3";
+ }
+
+ /*media queries grilla index*/
+ @media only screen and (max-width:600px){
+   
+    .portada{
+       height: 40%;
+       width: 40%;
+       
+ 
+    }
+ 
+    .img_novedades{
+       text-align: center;
+       width: 90%;
+    }
+ 
+    .texto_1{
+       text-align: center;
+       font-size: smaller;
+ 
+    }
+ 
+ }
+ 
+/*grid  biografia*/ 
+ .grid_bio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-template-areas: "a1 a1"
+                         "a2 a3";
+
+ }
+
+ 
+/*media queries bio*/ 
+@media only screen and (max-width:600px){
+    .grid_bio{
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-template-rows: 5% 30% 30%;
+       grid-template-areas: "a1"
+                            "a2"
+                            "a3";
+    }
+    
+    .grid_titulo{
+       grid-area: a1;
+       
+    } 
+    .grid_erlend{
+       grid-area: a2;
+ 
+    }  
+ 
+     .grid_eirik{
+       grid-area: a3;
+       
+ 
+    }
+ 
+    .card-erlend{
+    display: flex;
+    flex-wrap: wrap;
+ 
+    }
+ 
+    .card-eirik{
+       padding-top: 50%;
+       display: flex;
+       flex-wrap: wrap;
+       padding-top: 300px;
+ 
+    }
+ 
+ }
